@@ -4,8 +4,8 @@
      --clr-primary-400: #F78065;
      --clr-primary-900:#000000;
      
-     --ff-primary:;
-     --ff-accent:;
+     --ff-primary:'Merriweather', sans-serif;
+     --ff-accent:'Roboto', sans-serif;
  }
  
  
@@ -19,7 +19,13 @@
      padding: 3rem 0;
  }
  h1,h2,h3,h4,span,p {
-     margin-bottom: 1em;
+     margin-bottom: 0.5rem;
+ }
+ h1,h2,h3,h4,button {
+     font-family: var(--ff-primary);
+ }
+ span, p{
+     font-family: var(--ff-accent);
  }
  .container {
      display: flex;
@@ -31,6 +37,10 @@ img {
     display: block;
     max-width: 100%;
     margin-bottom: 4rem;
+}
+
+.rectangular {
+    margin-bottom: 2rem;
 }
 span {
     color: var(--clr-primary-400);
@@ -58,6 +68,11 @@ button{
     background: var(--clr-primary-400);
     
    
+}
+.start{
+    width: 90%;
+    height: 55px;
+    margin-top: 4rem;
 }
 
 .banner-box p {
