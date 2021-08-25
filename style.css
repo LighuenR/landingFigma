@@ -14,6 +14,7 @@
      box-sizing: border-box;
      padding: 0;
      margin: 0;
+     list-style: none;
  }
  section {
      padding: 3rem 0;
@@ -102,6 +103,31 @@ i {
     padding: 2rem 2rem;
 
 }
+
+footer {
+    background-color: rgba(247, 247, 247, 1);
+}
+
+
+footer li {
+    margin-top: 1rem;
+}
+
+
+.footer-list {
+    display: flex;
+}
+.footer-list li {
+    
+    margin-top: 0;
+    margin-left: 2em;
+   
+    
+}
+
+
+
+
 @media (min-width: 40em) {
 
 
@@ -115,5 +141,22 @@ i {
     .col-container > * + * {
         margin-left: 2em;
     }
+
     
+}
+
+@media screen and (max-width: 500px) {
+    .footer-list{
+        display: block;
+        margin-top: -3em;
+    }
+    .footer-list li {
+    
+        margin-top: 1em;
+        margin-left: 0;
+        
+       
+        
+    }
+
 }
