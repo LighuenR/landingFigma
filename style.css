@@ -6,6 +6,7 @@
      
      --ff-primary:'Merriweather', sans-serif;
      --ff-accent:'Roboto', sans-serif;
+     --ff-parraph:'Montserrat', sans-serif;
  }
  
  
@@ -26,8 +27,13 @@
      font-family: var(--ff-primary);
      
  }
- span, p{
+
+ span{
      font-family: var(--ff-accent);
+ }
+ p {
+     font-family: var(--ff-parraph);
+     color: grey;
  }
  .container {
      display: flex;
