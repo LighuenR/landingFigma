@@ -1,2 +1,2 @@
 # landingfueradeobra
-Landing servicio gastronomico de cena de pasos 
+Landing made with CSS and HTML only
